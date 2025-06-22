@@ -1,0 +1,19 @@
+{
+  "name": "bot_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.6",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
